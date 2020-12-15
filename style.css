@@ -1,0 +1,34 @@
+#body {
+  background-image: url("Untitled (6).jpg");
+  background-size: 100%;
+}
+
+.header {
+  margin-left: 700px;
+}
+
+.header > h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.login > label {
+  margin-left: 20px;
+  margin-left: 920px;
+  margin-top: 10px;
+}
+
+.login > h1 {
+  margin-left: 900px;
+  margin-top: 140px;
+}
+
+#username {
+  margin: 20px;
+  width: 30%;
+  margin-left: 810px;
+}
+
+.btn {
+  margin-left: 870px;
+  width: 20%;
+}

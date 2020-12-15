@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link ref="stylesheet" href="chat.css">
+</head>
+<body style="background-color: aquamarine;" >
+    <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()" style="margin-left: 1400px;">Logout</button>
+   <div class="container">
+       <div style="text-align: center;">
+           <h1>Let's Chat</h1>
+           <div id="output" style="background-color: white;width: 125%;padding: 10px;width: 100%;border-radius: 15px;margin-left: 0px;text-align: center;font-size: 25px; margin-top: 100px;">
+             
+           </div>
+       </div>
+   </div>
+   <div style="background-color: white; width: 100%; text-align: center; opacity: 0.8; margin-top: 300px; padding-bottom:100px; bottom: 0;">
+      <label>SEND: </label>
+      <input class="form-control" type="text" style="width: 50%; padding: 10px !important; margin-bottom: 20px; margin-left: 400px !important;" id="msg" placeholder="Message">
+      <button class="btn btn-success" onclick="send()">Send</button>
+   </div>
+   <script src="chat.js"></script>
+</body>
+</html>

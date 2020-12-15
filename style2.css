@@ -1,0 +1,50 @@
+#head {
+  font-size: 22px;
+  margin-right: 500px;
+}
+
+body {
+  background-color: darkturquoise;
+}
+
+.main {
+  background-color: white;
+  margin: 50px;
+  display: flex;
+  align-items: space-around;
+  border-radius: 15px;
+  padding: 20px;
+  border: 0px solid black;
+}
+
+h1 {
+  margin-left: 550px;
+}
+
+#get_roomName {
+  width: 300%;
+}
+
+.body {
+  margin-top: 40px;
+  margin-right: 500px;
+  margin-left: 400px;
+}
+
+.btn1 {
+  margin: 50px;
+  margin-left: 0px;
+  width: 300%;
+}
+
+.trending {
+  background-color: aquamarine;
+  width: 125%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  margin-left: 170px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
